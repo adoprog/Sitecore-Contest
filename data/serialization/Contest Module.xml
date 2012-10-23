@@ -1,0 +1,123 @@
+<project>
+  <Metadata>
+    <metadata>
+      <PackageName>Contest Module</PackageName>
+      <Author>Alex Doroshenko</Author>
+      <Version>1.0.0.6</Version>
+      <Revision />
+      <License />
+      <Comment />
+      <Attributes />
+      <Readme />
+      <Publisher />
+      <PostStep />
+      <PackageID />
+    </metadata>
+  </Metadata>
+  <SaveProject>True</SaveProject>
+  <Sources>
+    <xfiles>
+      <Entries>
+        <x-item>/App_Config/Include/Contest.config</x-item>
+        <x-item>/bin/Sitecore.Contest.dll</x-item>
+        <x-item>/sitecore modules/Contest/</x-item>
+        <x-item>/sitecore modules/Contest/ContestModule.ascx</x-item>
+        <x-item>/sitecore modules/Contest/ContestTeaser.ascx</x-item>
+        <x-item>/sitecore modules/Contest/css/</x-item>
+        <x-item>/sitecore modules/Contest/css/contest.css</x-item>
+        <x-item>/sitecore modules/Contest/img/</x-item>
+        <x-item>/sitecore modules/Contest/img/bird.gif</x-item>
+        <x-item>/sitecore modules/Contest/img/bird2.gif</x-item>
+        <x-item>/sitecore modules/Contest/img/bird3.gif</x-item>
+        <x-item>/sitecore modules/Contest/img/bird4.gif</x-item>
+        <x-item>/sitecore modules/Contest/img/bird5.gif</x-item>
+        <x-item>/sitecore modules/Contest/img/deltag.gif</x-item>
+        <x-item>/sitecore modules/Contest/img/deltagNwind.gif</x-item>
+        <x-item>/sitecore modules/Contest/img/deltagTeaser.gif</x-item>
+        <x-item>/sitecore modules/Contest/img/sendSvar.gif</x-item>
+        <x-item>/sitecore modules/Contest/img/wallpaper.gif</x-item>
+      </Entries>
+      <Converter>
+        <FileToEntryConverter>
+          <Root>/</Root>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </FileToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Files</Name>
+    </xfiles>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/media library/Images/Contest/{7E34DE9B-CBBC-4174-B9CC-AEA17E704924}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Images/Contest/bird/{9A08EFDF-42F2-4145-9034-7DE2CFE034A1}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Images/Contest/bird2/{ED0F1B48-B278-4173-A921-202F6337011C}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Images/Contest/bird3/{86025437-FB3B-49FB-9F31-556D1889628F}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Images/Contest/bird4/{6731FC71-9D35-4D97-B250-11659C075362}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Images/Contest/bird5/{BC0FEF3C-810A-42D9-99E4-0E38A299DCD3}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Images/Contest/wallpaper/{E5E52F6C-65DD-4500-95EA-9B07E8A70D7F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Contest/{51C669E4-5A50-43DF-AF53-E69A5F0A893C}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Contest/Answer/{D06EBD21-3F34-4FB4-82D8-DF8BF423C72F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Contest/Answer/Data/{CF40D5CB-8C04-47EF-A112-FCC9B3F82C2C}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Contest/Answer/Data/AnswerText/{ABFCACC6-BEA8-4F25-9BEC-579E538D81AF}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Contest/Answer/Data/IsRightAnswer/{550549EA-D24D-4BA3-A1B6-617AB3A3D6D0}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Contest/Contest/__Standard Values/{8421CB5D-1B55-4AB9-8EAF-899E9DA5C89F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Contest/Contest/{B6278FD4-AE9F-492A-A8EF-8C32A904B7C0}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Contest/Contest/Data/{112B41D8-E9F8-4E2F-B0D4-5A44858D4DAE}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Contest/Contest/Data/Abstract/{D57CAA92-2847-413F-B25A-0A8DFE2C8033}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Contest/Contest/Data/Headline/{DD20B777-0826-4772-9809-62ED25ED0531}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Contest/Contest/Data/Image/{EDF9006B-7E53-4067-BEE7-D2D4AD113B26}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Contest/Contest/Data/OtherContestsText/{7F28CEDF-CD3C-4CB6-83EE-316707155BA9}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Contest/Contest/Data/Question/{C1B0AE5D-4F49-4EA5-8155-A463E4F1DDCC}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Contest/Contest/Data/ThankYouText/{E8BAF9EF-521A-48B5-8AE4-912DCB2F7BEE}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Contest/Contest/Data/Wallpaper/{C3ADA7AF-B046-47F5-9043-C950ABAE47DA}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Contest/ContestsList/{10A28602-6B2B-4B57-8D12-2ACA1887E194}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Contest/ContestsList/Data/{D4AAEC49-7E3A-4272-B342-C9BF4E42C992}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Contest/ContestsList/Data/Contests/{B985B1B2-810E-42DA-9F78-DE4E53664469}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Contest/SubmittedAnswer/{E339FFD1-76A1-4E40-B55F-88B57F530C5E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Contest/SubmittedAnswer/Data/{B7EFFE50-033F-4FBC-BE1B-2260B55C286C}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Contest/SubmittedAnswer/Data/Answer/{6BF5CEFB-6259-4808-8B93-FDCC9CC6EB5E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Contest/SubmittedAnswer/Data/ContestId/{9349ABF0-9BF3-4033-B807-3752FC1A77A3}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Contest/SubmittedAnswer/Data/Email/{9B4C415D-F389-4441-ABA8-B0406521C437}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Contest/SubmittedAnswer/Data/Name/{EC9B9BAD-F29E-4165-A753-8E89D9F6204C}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Sublayouts/ContestModule/{A780E4DD-70A5-46CD-9B92-4EE01F0BB292}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Sublayouts/ContestTeaser/{7C64ACB6-3A57-4646-9395-02E659962418}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Items</Name>
+    </xitems>
+  </Sources>
+  <Converter>
+    <TrivialConverter>
+      <Transforms />
+    </TrivialConverter>
+  </Converter>
+  <Include />
+  <Exclude />
+  <Name />
+</project>
